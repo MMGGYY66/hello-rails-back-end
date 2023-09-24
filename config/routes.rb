@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  namespace :api do
-    get '/', to: 'greetings_api#random'
+  resources :greetings, only: [:random] do
+    get :random, on: :collection
   end
 end
