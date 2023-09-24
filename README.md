@@ -1,8 +1,16 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  <img src="budget-trans.png" alt="logo" width="240"  height="auto" />
+  <br/>
+  <h3><b>Hello World backend App</b></h3>
+</div>
+
 <!-- PROJECT DESCRIPTION -->
 
 # <a name="about-project"> Hello Rails Backend </a>
 
-This project serves as the API backend for the [React front-end project.]()
+This project serves as the API backend for the [React front-end project.](https://github.com/MMGGYY66/hello-rails-back-end)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -50,33 +58,7 @@ This project serves as the API backend for the [React front-end project.]()
 
 ### Setup 🔧<a name="setup"></a>
 
-1. Ensure you have Ruby installed on your system. You can check your Ruby version in the terminal by running:
-
-```
-ruby -v
-```
-
-If Ruby is not installed, you can download and install it from the official Ruby website.
-
-2. Ensure you have Ruby on Rails (RoR) installed on your system. You can check your Rails version in the terminal by running:
-
-```
-rails -v
-```
-
-If Rails is not installed, you can install it using the following command:
-
-```
-gem install rails
-```
-
-3. To get a local copy up and running, follow these steps.
-Choose the directory on your local machine where you want to copy project. For example:
-
-```
-cd /home/user/name-of-your-directory
-```
-
+To get a local copy up and running, follow these steps.
 Clone the project using one of the options.
 
 Using SSH-key:
@@ -90,11 +72,9 @@ Using HTTPS:
 ```
 git clone https://github.com/MMGGYY66/hello-rails-back-end.git
 
-You can also create the new directory just adding the name of it in the end of command. For example:
+```
 
-```
-git clone https://github.com/MMGGYY66/hello-rails-back-end.git rails-backend
-```
+
 ### Installation ⚙️<a name="installation"></a>
 
 To run this project locally, follow these steps:
@@ -106,7 +86,7 @@ To run this project locally, follow these steps:
 3. Run the following commands to install any required dependencies:
 ```bundle install```
 
-### Usage 🧰<a name="usage"></a>
+### Usage 
 
 1. Once the setup is complete, ensure you are still in the directory containing the Hello Rails Backend files.
 
@@ -131,11 +111,7 @@ rails db:seed
 rails server
 ```
 
-5. The app will be accessible at `http://localhost:3000` in your web browser.
-
-6. If you have future features like GUI or interactive mode, follow the specific instructions provided for those features in the app's documentation.
-
-### Troubleshooting :nut_and_bolt:<a name="troubleshooting"></a>
+### Troubleshooting
 
 #### Rendering
 
@@ -165,15 +141,9 @@ or
 rails db:drop
 ```
 
-3. Recreate the Database [how to](#usage)
-
-After dropping the database, you can recreate it from scratch. Run migrations to set up the schema.
-
-If problems persist, you can refer to the official [Ruby on Rails Guides](https://guides.rubyonrails.org/getting_started.html) for more troubleshooting tips and guidance.
-
 <!-- AUTHORS -->
 
-## 🖋️ Authors & Contributors<a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Mohamed Gamil Eldimardash**
 
@@ -183,17 +153,17 @@ If problems persist, you can refer to the official [Ruby on Rails Guides](https:
 - Facebook: [facebook](https://www.facebook.com/MOHAMED.ELDIMARDASH/)
 - StackOverflow: [stackoverflow](https://stackoverflow.com/users/13605630/mohamed-gamil-eldimardash)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🌟 Future Features <a name="future-features"></a>
 
 - [ ] Add more endpoints.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing
 
 I welcome contributions to enhance the functionality and user experience of the Hello Rails Backend Application. If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request. Let's share ideas!
 
