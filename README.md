@@ -82,18 +82,18 @@ Clone the project using one of the options.
 Using SSH-key:
 
 ```
-git clone git@github.com:romans-adi/hello-rails-back-end.git
+
+git clone git@github.com:MMGGYY66/hello-rails-back-end.git
 ```
 Using HTTPS:
 
 ```
-git clone https://github.com/romans-adi/hello-rails-back-end.git
-```
+git clone https://github.com/MMGGYY66/hello-rails-back-end.git
 
 You can also create the new directory just adding the name of it in the end of command. For example:
 
 ```
-git clone https://github.com/romans-adi/hello-rails-back-end.git rails-backend
+git clone https://github.com/MMGGYY66/hello-rails-back-end.git rails-backend
 ```
 ### Installation ⚙️<a name="installation"></a>
 
