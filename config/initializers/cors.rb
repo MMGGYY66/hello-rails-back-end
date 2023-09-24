@@ -14,3 +14,14 @@
 #       methods: [:get, :post, :put, :patch, :delete, :options, :head]
 #   end
 # end
+
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins '*'  # Ideally, replace '*' with the actual origin of your React app for security
+      resource '*', 
+      resource "*",
+      headers: :any,
+      methods: [:get, :head]    
+    end
+ end
+ 
