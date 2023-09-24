@@ -10,7 +10,7 @@
 
 # <a name="about-project"> Hello Rails Backend </a>
 
-This project serves as the API backend for the [React front-end project.](https://github.com/MMGGYY66/hello-rails-back-end)
+This project serves as the API backend for the [React front-end project.](https://github.com/MMGGYY66/hello-rails-front-end)
 
 <!-- TABLE OF CONTENTS -->
 

@@ -263,3 +263,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 17ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4049)
 
 
+Started GET "/" for 127.0.0.1 at 2023-09-24 22:45:31 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mohamedeldimardash/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mohamedeldimardash/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 491)
+Completed 200 OK in 17ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4110)
+
+
